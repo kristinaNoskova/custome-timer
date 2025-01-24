@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Roboto Slab';
+}
+.content .timer {
+	margin-top: 150px;
+	text-align: center;
+}
+.content .timer-action {
+	font-size: 24px;
+	color: #fff;
+	margin-top: 40px;
+}
+.content .timer-numbers {
+	margin-top: 40px;
+	font-size: 90px;
+	color: #c78030;
+}
+.content .timer-numbers:after {
+	content: '';
+	display: block;
+	width: 20%;
+	height: 1px;
+	background-color: #c78030;
+	margin: 0 auto;
+	margin-top: 4px;
+}
