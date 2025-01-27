@@ -1,4 +1,4 @@
-let deadline = '2025-01-25';
+let deadline = '2025-02-15';
 
 const getTimeRemaining = (endTime) => {
     let milliseconds = Date.parse(endTime) - Date.parse(new Date());
